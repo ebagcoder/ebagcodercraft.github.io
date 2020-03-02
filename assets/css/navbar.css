@@ -1,4 +1,4 @@
-#navbarul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +6,11 @@
   background-color: gray;
 }
 
-#navbarli {
+li {
   float: left;
 }
 
-#navbarli e {
+li a {
   display: block;
   color: #ffffff;
   text-align: center;
@@ -19,6 +19,6 @@
   
 }
 
-#navbarli e:hover {
+li a:hover {
   background-color: #C9C9C9;
 }

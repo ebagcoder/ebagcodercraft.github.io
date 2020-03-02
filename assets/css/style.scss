@@ -1,54 +1,48 @@
-body 
-{
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
 #head1 
 {
 text-align: center;
-color: #000000;
+color: #ffffff;
 font-size: 40px;
 letter-spacing: .75px;
 }
 #head2 
 {
 text-align: center;
-color: #000000;
+color: #ffffff;
 font-size: 30px;
 letter-spacing: .75px;
 }
 #body 
 {
-  border-top: 20px solid #ffffff;
-  color: #000000;
+  border-top: 20px solid #000000;
+  color: #ffffff;
   font-size: 15px;
   text-align: center;
   letter-spacing: .75px;
 }
 #spacer1 
 {
-  border-top: 30px solid #ffffff;
+  border-top: 30px solid #000000;
 }
 #spacer2 
 {
-  border-top: 20px solid #ffffff;
+  border-top: 20px solid #000000;
 }
 #spacer3 
 {
-  border-top: 10px solid #ffffff;
+  border-top: 10px solid #000000;
 }
 #images-center 
 {
 text-align: center;
 }
+body 
+{
+  padding: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 25px;
+}
 img 
 {
-
-}
-.dark-mode
-{
-background-color: black;
-  color: white;
 }

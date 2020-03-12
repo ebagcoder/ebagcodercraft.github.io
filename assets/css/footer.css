@@ -9,9 +9,9 @@
   border-bottom: none;
   }
 .social-icons li img {
-  width:30px;
-  height:30px;
-  margin-right: 20px;
+  width:32px;
+  height:32x;
+  margin-right: 5px;
 }
 
 .footer {
@@ -19,9 +19,9 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: gray;
-   color: #ffffff;
+   background-color: #FFFFFF;
+   color: #000000;
    text-align: center;
-      border: 5px solid #000000;
-border-radius: 10px;
+   border: 10px solid #000000;
+   border-radius: 10px;
 }

@@ -16,10 +16,11 @@
 .footer {
    position: fixed;
    left: 0;
+  width: 90%;
    bottom: 0;
    background-color: #FFFFFF;
    color: #000000;
    text-align: center;
-   border: 10px solid #000000;
+   border: 20px solid #000000;
    border-radius: 10px;
 }

@@ -16,11 +16,9 @@
 .footer {
    position: fixed;
    left: 0;
-  width: auto;
+  width: 100%;
    bottom: 0;
    background-color: #FFFFFF;
    color: #000000;
    text-align: center;
-   border: 30px solid #000000;
-   border-radius: 10px;
 }

@@ -43,6 +43,7 @@
    <li><a href="https://www.patreon.com/EbagcoderCraft">Patreon</a></li>
       <li><a href="https://discord.gg/aQwHn3M">Discord</a></li>
 </ul>
+   <div id="spacer1"></div>
 <div id="head1">EbagcoderCraft</div>
 <div id="spacer1"></div
    <img alt="banner" src="images/EbagcoderCraft-Banner.png"
@@ -51,5 +52,51 @@
    <div id="head2>What is EbagcoderCraft?</div>
    <div id="spacer1"></div>
    <div id="body">EbagcoderCraft is a vanilla minecraft server, owned and run by ebagcoder. We are a community that is open to any type of minecrafter. We are dedicated to create a commuinty of all types of minecrafters.</div>               
- </body>
+ <div id="spacer1"></div>
+                 <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: '42p15fm_9LE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+                 
+    </body>
 </html>

@@ -1,0 +1,52 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+        <meta name="google-site-verification" content="ErpVwTIiW0sZZKpN1P5t53Fitzn3fMJEQOblIYUpRE4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Official Website OF EbagcoderCraft!">
+        <meta name="keywords" content="minecraft mine craft EbagcoderCraft ebagcoder craft flameatgames mc mcserver hermit hermitcraft youtube video videos lets let's play lp smp">
+        <meta name="fragment" content="!">
+      
+   <link rel="fav/icon" href="/favicon/favicon.ico"/>
+   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="000000">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="000000">
+<title>EbagcoderCraft</title>
+           <link rel = "stylesheet"
+   type = "text/css"
+   href = "/assets/css/style.css"/>
+      <link rel = "stylesheet"
+   type = "text/css"
+   href = "/assets/css/navbar.css"/>
+      <link rel = "stylesheet"
+   type = "text/css"
+   href = "/assets/css/footer.css"/>
+   </head>
+<body bgcolor="000000">
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+   <li><a href="serverinfo.html">Mc Server Info</a></li>
+   <li><a href="https://www.patreon.com/EbagcoderCraft">Patreon</a></li>
+   <li><a href="https://discord.gg/aQwHn3M">Discord</a></li>
+</ul>
+<div id="head1">EbagcoderCraft Server Info</div>
+<div id="spacer1"></div>
+<iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://namemc.com/server/mc.ebagcodercraft.net/embed" width="728" height="90"></iframe>
+ <div id="spacer1"></div>
+  
+</body>
+</html>

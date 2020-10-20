@@ -25,7 +25,7 @@
 <meta name="msapplication-TileColor" content="000000">
 <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="000000">
-<title>EbagcoderCraft</title>
+<title>Discord Bot</title>
            <link rel = "stylesheet"
    type = "text/css"
    href = "/assets/css/style.css"/>
@@ -39,11 +39,13 @@
 <body bgcolor="000000">
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
-   <li><a href="serverinfo.html">Mc Server Info</a></li>
+   <li><a href="mcserverinfo.html">Mc Server Info</a></li>
+      <li><a href="discordbot.html">My Discord Bot</a></li>
+         <li><a href="https://github.com/EbagcoderCraft/Ebagcodercraft-Bot/wiki/List-Of-Commands">Bots List Of Commands</a></li>
    <li><a href="https://www.patreon.com/EbagcoderCraft">Patreon</a></li>
-   <li><a href="https://discord.gg/aQwHn3M">Discord</a></li>
+   <li><a href="https://discord.gg/aQwHn3M">Discord Server</a></li>
 </ul>
-<div id="head1">EbagcoderCraft Server Info</div>
+<div id="head1">EbagcoderCraft Discord Bot</div>
 <div id="spacer1"></div>
 <iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://namemc.com/server/mc.ebagcodercraft.net/embed" width="728" height="90"></iframe>
  <div id="spacer1"></div>

@@ -24,3 +24,9 @@ letter-spacing: .75px;
 #spacer3 {
   border-top: 10px solid #000000;
 }
+
+#banner {
+    background:url('https://github.com/EbagcoderCraft/ebagcodercraft.github.io/blob/master/images/EBAGCODERCRAFT.png');
+    width:100%;
+    min-height:189px;
+}

@@ -3,7 +3,7 @@
       <meta charset="utf-8">
         <meta name="google-site-verification" content="ErpVwTIiW0sZZKpN1P5t53Fitzn3fMJEQOblIYUpRE4" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="The Official Website OF Ebagcoder!">
+        <meta name="description" content="The Official Website OF EbagcoderCraft!">
         <meta name="keywords" content="minecraft mine craft EbagcoderCraft ebagcoder craft flameatgames mc mcserver hermit hermitcraft youtube video videos lets let's play lp smp">
         <meta name="fragment" content="!">
       
@@ -37,6 +37,7 @@
    href = "/assets/css/footer.css"/>
    </head>
 <body bgcolor="000000">
+<img src="/images/bars1.png" onclick="this.src='/images/bars2.png'">
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
    <li><a href="mcserverinfo.html">Mc Server Info</a></li>
@@ -54,53 +55,8 @@
    <div id="spacer1"></div>
    <div id="body">EbagcoderCraft is a vanilla minecraft server, owned and run by ebagcoder. We are a community that is open to any type of minecrafter. We are dedicated to create a commuinty of all types of minecrafters.</div>               
  <div id="spacer1"></div>
-
- <img src="/images/bars1.png" onclick="this.src='/images/bars2.png'">
-                 <div id="player" align="center"></div>
-
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          align: 'middle',
-          videoId: '42p15fm_9LE',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
-        }
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-    </script>
+<p align="center"><iframe class="videoplayer" src="http://www.twitch.tv/embed?channel=ebagcodercorp" height="478" width="800" frameborder="0" scrolling="no"></iframe></p>
+                 
                  
     </body>
 </html>
